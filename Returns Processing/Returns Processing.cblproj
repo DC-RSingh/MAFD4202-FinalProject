@@ -2,10 +2,10 @@
   <PropertyGroup>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <ProjectGuid>{3687F4A3-0E7B-41AE-B7A2-71C4570371E5}</ProjectGuid>
-    <OutputName>MAFD4202_W2021_FinalProject</OutputName>
+    <ProjectGuid>{B9EE7926-11D4-4A54-9C9E-04C77E0B61DE}</ProjectGuid>
+    <OutputName>Returns_Processing</OutputName>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MAFD4202_W2021_FinalProject</RootNamespace>
+    <RootNamespace>Returns_Processing</RootNamespace>
     <MFProjectType>Native</MFProjectType>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">

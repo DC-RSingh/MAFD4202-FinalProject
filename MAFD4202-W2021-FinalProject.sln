@@ -3,7 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{535C04D7-A2A5-47C7-83E0-B340A995CD1F}") = "MAFD4202-W2021-FinalProject", "MAFD4202-W2021-FinalProject.cblproj", "{3687F4A3-0E7B-41AE-B7A2-71C4570371E5}"
+Project("{535C04D7-A2A5-47C7-83E0-B340A995CD1F}") = "Edit", "Edit\Edit.cblproj", "{449DBC67-0594-490E-B594-942F4CB74E2E}"
+EndProject
+Project("{535C04D7-A2A5-47C7-83E0-B340A995CD1F}") = "Data Split and Count", "Data Split and Count\Data Split and Count.cblproj", "{6705752B-ED97-46AA-8870-3EE5315E20F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{449DBC67-0594-490E-B594-942F4CB74E2E} = {449DBC67-0594-490E-B594-942F4CB74E2E}
+	EndProjectSection
+EndProject
+Project("{535C04D7-A2A5-47C7-83E0-B340A995CD1F}") = "S and L Processing", "S and L Processing\S and L Processing.cblproj", "{78D51296-7916-47F9-9ED3-FAA3729EB7BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6705752B-ED97-46AA-8870-3EE5315E20F7} = {6705752B-ED97-46AA-8870-3EE5315E20F7}
+	EndProjectSection
+EndProject
+Project("{535C04D7-A2A5-47C7-83E0-B340A995CD1F}") = "Returns Processing", "Returns Processing\Returns Processing.cblproj", "{B9EE7926-11D4-4A54-9C9E-04C77E0B61DE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6705752B-ED97-46AA-8870-3EE5315E20F7} = {6705752B-ED97-46AA-8870-3EE5315E20F7}
+	EndProjectSection
+EndProject
+Project("{535C04D7-A2A5-47C7-83E0-B340A995CD1F}") = "DataFiles", "DataFiles\DataFiles.cblproj", "{B783BFC8-3814-4B7C-AEEF-147D9BE0FA1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +28,26 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3687F4A3-0E7B-41AE-B7A2-71C4570371E5}.Debug|x86.ActiveCfg = Debug|x86
-		{3687F4A3-0E7B-41AE-B7A2-71C4570371E5}.Debug|x86.Build.0 = Debug|x86
-		{3687F4A3-0E7B-41AE-B7A2-71C4570371E5}.Release|x86.ActiveCfg = Release|x86
-		{3687F4A3-0E7B-41AE-B7A2-71C4570371E5}.Release|x86.Build.0 = Release|x86
+		{449DBC67-0594-490E-B594-942F4CB74E2E}.Debug|x86.ActiveCfg = Debug|x86
+		{449DBC67-0594-490E-B594-942F4CB74E2E}.Debug|x86.Build.0 = Debug|x86
+		{449DBC67-0594-490E-B594-942F4CB74E2E}.Release|x86.ActiveCfg = Release|x86
+		{449DBC67-0594-490E-B594-942F4CB74E2E}.Release|x86.Build.0 = Release|x86
+		{6705752B-ED97-46AA-8870-3EE5315E20F7}.Debug|x86.ActiveCfg = Debug|x86
+		{6705752B-ED97-46AA-8870-3EE5315E20F7}.Debug|x86.Build.0 = Debug|x86
+		{6705752B-ED97-46AA-8870-3EE5315E20F7}.Release|x86.ActiveCfg = Release|x86
+		{6705752B-ED97-46AA-8870-3EE5315E20F7}.Release|x86.Build.0 = Release|x86
+		{78D51296-7916-47F9-9ED3-FAA3729EB7BE}.Debug|x86.ActiveCfg = Debug|x86
+		{78D51296-7916-47F9-9ED3-FAA3729EB7BE}.Debug|x86.Build.0 = Debug|x86
+		{78D51296-7916-47F9-9ED3-FAA3729EB7BE}.Release|x86.ActiveCfg = Release|x86
+		{78D51296-7916-47F9-9ED3-FAA3729EB7BE}.Release|x86.Build.0 = Release|x86
+		{B9EE7926-11D4-4A54-9C9E-04C77E0B61DE}.Debug|x86.ActiveCfg = Debug|x86
+		{B9EE7926-11D4-4A54-9C9E-04C77E0B61DE}.Debug|x86.Build.0 = Debug|x86
+		{B9EE7926-11D4-4A54-9C9E-04C77E0B61DE}.Release|x86.ActiveCfg = Release|x86
+		{B9EE7926-11D4-4A54-9C9E-04C77E0B61DE}.Release|x86.Build.0 = Release|x86
+		{B783BFC8-3814-4B7C-AEEF-147D9BE0FA1B}.Debug|x86.ActiveCfg = Debug|x86
+		{B783BFC8-3814-4B7C-AEEF-147D9BE0FA1B}.Debug|x86.Build.0 = Debug|x86
+		{B783BFC8-3814-4B7C-AEEF-147D9BE0FA1B}.Release|x86.ActiveCfg = Release|x86
+		{B783BFC8-3814-4B7C-AEEF-147D9BE0FA1B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
