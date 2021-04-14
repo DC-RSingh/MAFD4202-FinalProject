@@ -26,7 +26,7 @@
     <Compile Include="Program1.cbl" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Data\project6.dat" />
+    <None Include="Data\file-01-pos-data.dat" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Micro Focus\Visual COBOL\v1.0\MicroFocus.COBOL.targets" />
 </Project>
