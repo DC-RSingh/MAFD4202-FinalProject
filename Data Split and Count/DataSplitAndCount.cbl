@@ -55,7 +55,7 @@
          05 in-sku-code        pic X(15).
       *
        fd file-05-sl-data
-           data record is error-out-data.
+           data record is sl-out-data.
       *
        01 sl-out-data.
          05 sl-trans-code      pic x.
