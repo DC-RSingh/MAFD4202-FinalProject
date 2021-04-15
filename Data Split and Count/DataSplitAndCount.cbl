@@ -136,7 +136,7 @@
          05 filler             pic x(2) value ": ".
          05 ws-rfes-r-total    pic z(7)9.
          05 filler             pic x(11) value "   AMOUNT: ".
-         05 ws-rfes-r-amount   pic $z(11).99.
+         05 ws-rfes-r-amount   pic $z(10)9.99.
       *
        01 ws-cct-return-line.
          05 filler             pic x(32) value
